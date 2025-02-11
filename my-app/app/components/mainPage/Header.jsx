@@ -15,8 +15,9 @@ export default function Header() {
             <Link href={'/pages/System'}><p className='font-medium text-md poppins-2xl text-gray-700 hover:text-second_color duration-300'>Cистем</p></Link>
           </div>
         </div>
-        <div className='col-span-1 flex items-center justify-end gap-10'>
+        <div className='col-span-1 flex items-center justify-end gap-8'>
           <p className='font-medium text-md poppins-2xl text-gray-700 hover:text-second_color cursor-pointer duration-300'>Тусламж</p>
+          <p className='text-xl text-gray-600'>|</p>
           <div>
             <button className='bg-second_color hover:bg-purple-500 duration-300 shadow-md rounded-md py-2 px-4 flex items-center gap-2 transition duration-300 ease-in-out'>
               <p className='font-bold poppins-2xl text-md bg-transparent text-white'>Холбогдох</p>
