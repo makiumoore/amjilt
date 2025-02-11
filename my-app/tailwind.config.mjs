@@ -7,6 +7,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        fontFamily: {
+          title: ["Poppins", "sans-serif"],
+        },
+      },
       colors: {
         second_color: "#5c2f91",
       },
