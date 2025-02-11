@@ -8,9 +8,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        second_color: "#5c2f91",
       },
+      width: {
+        max_width: "1440px",
+        min_width: "340px",
+      }
     },
   },
   plugins: [],
