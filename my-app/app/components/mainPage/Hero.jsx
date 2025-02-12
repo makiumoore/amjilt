@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="w-full min-h-screen bg-white relative overflow-hidden pt-20">
+    <div className="w-full min-h-screen bg-white relative overflow-hidden xl:pt-20">
       <div className="absolute left-[-30px] top-1/2 -translate-y-1/2 w-1/3 hidden lg:block">
         <img
           src="/hero/test_img.avif"
