@@ -13,7 +13,7 @@ export default function Header() {
           <div className="flex items-center gap-8">
             <Link href="/pages/About">
               <p className={`font-medium text-md transition duration-300 ${
-                pathname === '/pages/About' ? 'text-second_color font-bold' : 'text-gray-700 hover:text-second_color'
+                pathname === '/pages/About' ? 'text-second_color font-bold border-b-2 border-second_color' : 'text-gray-700 hover:text-second_color'
               }`}>
                 Бидний тухай
               </p>
@@ -21,7 +21,7 @@ export default function Header() {
             <p className="text-xl text-gray-600">|</p>
             <Link href="/pages/System">
               <p className={`font-medium text-md transition duration-300 ${
-                pathname === '/pages/System' ? 'text-second_color font-bold' : 'text-gray-700 hover:text-second_color'
+                pathname === '/pages/System' ? 'text-second_color font-bold border-b-2 border-second_color' : 'text-gray-700 hover:text-second_color'
               }`}>
                 Систем
               </p>
