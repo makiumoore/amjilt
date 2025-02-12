@@ -16,7 +16,7 @@ export default {
         second_color: "#5c2f91",
       },
       width: {
-        max_width: "1440px",
+        max_width: "1280px",
         min_width: "340px",
       }
     },
