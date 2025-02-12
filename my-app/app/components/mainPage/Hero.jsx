@@ -1,17 +1,52 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 export default function Hero() {
   return (
-    <div className='w-min_width lg:w-max_width m-auto pt-12 flex flex-col items-center justify-center gap-10'>
-      <div className=''>
-        <h1 className='text-5xl font-bold text-center py-8'>Amjilt Learning Management System</h1>
-        <p className='text-2xl text-center'>Сургуулийн удирдлагын цогц систем</p>
+    <div className="w-full min-h-screen bg-white relative overflow-hidden">
+      <div className="absolute left-[-30px] top-1/2 -translate-y-1/2 w-1/3 hidden lg:block">
+        <img
+          src="/hero/test_img.avif"
+          alt="People looking at laptop"
+          className="w-full h-[500px] object-cover rounded-xl"
+        />
       </div>
-      <div className='flex justify-center w-[1000px]'>
-        {/* <Image width={1200} height={500} src="/hero/laptop_realistic.png" alt="amjilt_icon" /> */}
-        <img src="/hero/laptop_realistic.png" alt="" className='w-full h-[550px]' />
+
+      <div className="absolute right-[-250px]  bottom-[-100px] w-1/2 hidden lg:block">
+        <img
+          src="/hero/pad.png"
+          alt="Banking dashboard"
+          className="w-full h-full "
+        />
+      </div>
+
+      <div className="max-w-2xl mx-auto px-4 py-20 relative">
+        <div className="flex flex-col items-center text-center space-y-8">
+          <div className="w-14 h-14">
+            <img
+              src="/hero/star.svg"
+              alt="Abstract faces art"
+              className="w-full h-full object-cover rounded"
+            />
+          </div>
+
+          <h1 className="w-[500px] text-4xl lg:text-5xl font-semibold text-gray-800 tracking-tight">
+            Amjilt <span className="text-second_color">LMS</span>
+            <br />
+            <span className="">Сургуулийн удирдлагын цогц систем</span>
+          </h1>
+
+          <button className="bg-second_color hover:bg-coral-600 text-white font-semibold py-3 px-8 rounded-md transition-colors">
+            Join the waitlist
+          </button>
+
+          <p className="text-gray-600 max-w-md mx-auto">
+            Open a business account in minutes, from your phone. Without going
+            to the bank. Your all-in-one account, with all essentials - No
+            hidden fees.
+          </p>
+        </div>
       </div>
     </div>
-  )
+  );
 }
