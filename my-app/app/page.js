@@ -5,7 +5,9 @@ import LocomotiveScroll from "locomotive-scroll";
 import Header from "./components/mainPage/Header";
 import Footer from "./components/mainPage/Footer";
 import Hero from "./components/mainPage/Hero";
+import Cards from "./components/mainPage/Cards"
 import Scroll from "./components/scroll/scroll";
+import Maincard from "./components/mainPage/Maincard"
 
 
 export default function Home() {
@@ -20,6 +22,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Scroll />
+      {/* <Maincard /> */}
+      <Cards />
       <Footer />
     </div>
   );

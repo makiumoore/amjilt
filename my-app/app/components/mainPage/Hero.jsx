@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="w-full min-h-screen bg-white relative overflow-hidden xl:pt-20">
       <div className="absolute left-[-30px] top-1/2 -translate-y-1/2 w-1/3 hidden lg:block">
         <img
-          src="/hero/test_img.avif"
+          src="/hero/heroimg.jpg"
           alt="People looking at laptop"
           className="w-full h-[500px] object-cover rounded-xl"
         />
@@ -40,10 +40,9 @@ export default function Hero() {
             Join the waitlist
           </button>
 
-          <p className="text-gray-600 max-w-md mx-auto">
-            Open a business account in minutes, from your phone. Without going
-            to the bank. Your all-in-one account, with all essentials - No
-            hidden fees.
+          <p className="text-gray-700 max-w-md mx-auto">
+            Амжилт систем нь танай байгууллагад туслах , нэг цогц системээр
+            ажиллаа хөнгөвчлөхөд тусална.
           </p>
         </div>
       </div>

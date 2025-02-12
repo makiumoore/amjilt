@@ -25,13 +25,13 @@ export default function Footer() {
             <div className="flex">
               <p className="mr-1 text-gray-300">Phone:</p>
               <a href="tel:850-123-5021" aria-label="Our phone" title="Our phone" className="transition-colors duration-300 hover:text-purple-400 text-gray-500">
-                850-123-5021
+                +976 
               </a>
             </div>
             <div className="flex">
               <p className="mr-1 text-gray-300">Email:</p>
               <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email" className="transition-colors duration-300 hover:text-purple-400 text-gray-500">
-                info@lorem.mail
+                sales@amjilt.com
               </a>
             </div>
             <div className="flex">
