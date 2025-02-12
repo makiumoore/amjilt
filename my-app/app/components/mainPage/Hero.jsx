@@ -14,7 +14,7 @@ export default function Hero() {
 
       <div className="absolute right-[-250px]  bottom-[-100px] w-1/2 hidden lg:block">
         <img
-          src="/hero/pad.png"
+          src="/hero/ipadlms.png"
           alt="Banking dashboard"
           className="w-full h-full "
         />
