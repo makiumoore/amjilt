@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="w-full min-h-screen bg-white relative overflow-hidden">
+    <div className="w-full min-h-screen bg-white relative overflow-hidden pt-20">
       <div className="absolute left-[-30px] top-1/2 -translate-y-1/2 w-1/3 hidden lg:block">
         <img
           src="/hero/test_img.avif"
@@ -22,9 +22,9 @@ export default function Hero() {
 
       <div className="max-w-2xl mx-auto px-4 py-20 relative">
         <div className="flex flex-col items-center text-center space-y-8">
-          <div className="w-14 h-14">
+          <div className="w-22 h-20">
             <img
-              src="/hero/star.svg"
+              src="/hero/amjilt_icon.svg"
               alt="Abstract faces art"
               className="w-full h-full object-cover rounded"
             />
