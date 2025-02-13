@@ -17,7 +17,7 @@ export default function BusinessAccount() {
       title: "Business account",
       description:
         "The account that's powerful to the core. Day-to-day banking, from secure bank account to payment cards & real-time transfers, all included in your plan.",
-      img: "/iphone.png",
+      img: "/newphone.png",
     },
     "Digital incorporation": {
       title: "Digital incorporation",
@@ -74,10 +74,12 @@ export default function BusinessAccount() {
               <p className="text-blue-500 cursor-pointer">Discover the feature</p>
             </div>
           </div>
-          <div>
-            <img src={content[activeTab].img} alt={activeTab} />
+          <div className="">
+            <img className="w-full h-full"  src={content[activeTab].img} alt={activeTab} />
           </div>
-          <div></div>
+          <div>
+            <h1>hellp</h1>
+          </div>
         </div>
       </div>
     </div>
