@@ -8,66 +8,78 @@ export default function Cards() {
         You're in safe hands
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto px-4">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-3 max-w-6xl mx-auto px-4">
         {/* Card 1 */}
-        <div className="bg-white p-6 rounded-lg flex flex-col items-center">
-          <Image
-            src="/no-image.jpg"
+        <div className="bg- p-1 rounded-lg flex flex-col items-center">
+          <div className="w-[280px] h-[280px] bg-[#edd5d7]  rounded-lg mb-4">
+
+          </div>
+          {/* <Image
+            src="/"
             alt="Secure"
-            width={200}
-            height={200}
+            width={300}
+            height={300}
             className=" border border-black rounded-lg mb-4"
-          />
+          /> */}
           <h3 className="font-semibold text-lg">Secure</h3>
-          <p className="text-gray-600 text-sm mt-2">
+          <p className="text-gray-500  text-sm mt-2">
             Zazu protects your deposits in accordance with South African rules
             and regulations.
           </p>
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white  p-6 rounded-lg flex flex-col items-center">
-          <Image
+        <div className="bg-white p-1 rounded-lg flex flex-col items-center">
+        <div className="w-[280px] h-[280px] bg-[#474651]  rounded-lg mb-4">
+
+</div>
+          {/* <Image
             src="/no-image.jpg"
             alt="Secure"
-            width={200}
-            height={200}
+            width={300}
+            height={300}
             className=" border border-black rounded-lg mb-4"
-          />
+          /> */}
           <h3 className="font-semibold text-lg">Secure</h3>
-          <p className="text-gray-600 text-sm mt-2">
+          <p className="text-gray-500  text-sm mt-2">
             Zazu protects your deposits in accordance with South African rules
             and regulations.
           </p>
         </div>
 
         {/* Card 3 */}
-        <div className="bg-white  p-6 rounded-lg flex flex-col items-center">
-          <Image
+        <div className="bg-white p-1 rounded-lg flex flex-col items-center">
+        <div className="w-[280px] h-[280px] bg-[#7e7d85]  rounded-lg mb-4">
+
+</div>
+          {/* <Image
             src="/no-image.jpg"
             alt="Secure"
-            width={200}
-            height={200}
+            width={300}
+            height={300}
             className=" border border-black rounded-lg mb-4"
-          />
+          /> */}
           <h3 className="font-semibold text-lg">Secure</h3>
-          <p className="text-gray-600 text-sm mt-2">
+          <p className="text-gray-500  text-sm mt-2">
             Zazu protects your deposits in accordance with South African rules
             and regulations.
           </p>
         </div>
 
         {/* Card 4 */}
-        <div className="bg-white  p-6 rounded-lg flex flex-col items-center">
-          <Image
+        <div className="bg-white p-1 rounded-lg flex flex-col items-center">
+        <div className="w-[280px] h-[280px] bg-[#edd5d7]  rounded-lg mb-4">
+
+</div>
+          {/* <Image
             src="/no-image.jpg"
             alt="Secure"
-            width={200}
-            height={200}
+            width={300}
+            height={300}
             className=" border border-black rounded-lg mb-4"
-          />
+          /> */}
           <h3 className="font-semibold text-lg">Secure</h3>
-          <p className="text-gray-600 text-sm mt-2">
+          <p className="text-gray-500 text-sm mt-2">
             Zazu protects your deposits in accordance with South African rules
             and regulations.
           </p>
