@@ -5,6 +5,8 @@ import Header from '@/app/components/mainPage/Header'
 import Scroll from '@/app/components/scroll/Scroll'
 import Section3 from '@/app/components/About/Section3'
 import Footer from '@/app/components/mainPage/Footer'
+import Section4 from '@/app/components/About/Section4'
+import Section5 from '@/app/components/About/Section5'
 
 export default function page() {
   return (
@@ -14,6 +16,8 @@ export default function page() {
       <Section2/>
       <Scroll/>
       <Section3/>
+      <Section4/>
+      <Section5/>
       <Footer/>
     </div>
   )
