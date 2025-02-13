@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <div className="fixed top-0 left-0 w-full bg-gray-100 z-50">
-      <div className="xl:w-max_width mx-auto grid grid-cols-3 py-4">
+      <div className="xl:w-max_width  mx-auto grid grid-cols-3 py-4">
         <div className="flex items-center">
           <div className="flex items-center gap-8">
             <Link href="/pages/About">

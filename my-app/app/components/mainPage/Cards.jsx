@@ -8,7 +8,7 @@ export default function Cards() {
         You're in safe hands
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-3 max-w-6xl mx-auto px-4">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-6xl mx-auto px-4">
         {/* Card 1 */}
         <div className="bg- p-1 rounded-lg flex flex-col items-center">
           <div className="w-[280px] h-[280px] bg-[#edd5d7]  rounded-lg mb-4">

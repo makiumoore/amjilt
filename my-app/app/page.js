@@ -8,7 +8,7 @@ import Footer from "./components/mainPage/Footer";
 import Hero from "./components/mainPage/Hero";
 import Cards from "./components/mainPage/Cards";
 import Scroll from "./components/scroll/scroll";
-// import Maincard from "./components/mainPage/Maincard";
+import Maincard from "./components/mainPage/Maincard";
 
 export default function Home() {
   useEffect(() => {
@@ -32,7 +32,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Scroll />
-      {/* <Maincard /> */}
+      <Maincard />
       <Cards />
       <Footer />
     </div>
