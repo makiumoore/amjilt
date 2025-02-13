@@ -1,39 +1,42 @@
-import Image from "next/image";
+
 
 export default function BusinessAccount() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between p-8 bg-white min-h-screen">
-      {/* Left Section */}
-      <div className="md:w-1/2 text-left">
-        <h2 className="text-3xl font-semibold text-gray-900">Business account</h2>
-        <p className="text-gray-600 mt-4">
-          The account that's powerful to the core. Day-to-day banking, from
-          secure bank account to payment cards & real-time transfers, all
-          included in your plan.
-        </p>
-        <a href="#" className="text-red-500 font-medium mt-4 inline-block">
-          Discover the feature →
-        </a>
-      </div>
+    <div className="w-full">
+      <div className="w-max_width m-auto flex flex-col">
+        <div className="grid grid-cols-5 px-5 pb-5 gap-5 border-b-2 border-gray-600">
+          <div>
+            <p>Business account</p>
+          </div>
+          <div>
+            <p>Digital incorporation</p>
+          </div>
+          <div>
+            <p>Invoice management</p>
+          </div>
+          <div>
+            <p>Expense management</p>
+          </div>
+          <div>
+            <p>Bookkeeping & cash flow</p>
+          </div>
+        </div>
+        <div className="grid grid-cols-3 gap-5 pt-10">
+          <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-2">
+              <p>Business account</p>
+              <p>The account that's powerful to the core. Day-to-day banking, from secure bank account to payment  cards & real-time transfers, all included in your plan.</p>
+            </div>
+            <div>
+              <p>Discover the feature</p>
+            </div>
+          </div>
+          <div>
+            <img src="/iphone.png" alt="" />
+          </div>
+          <div>
 
-      {/* Right Section */}
-      <div className="md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0 relative">
-        <Image
-          src="/phone_mockup.png"
-          alt="Phone mockup"
-          width={250}
-          height={500}
-          className="shadow-lg rounded-lg"
-        />
-        <div className="absolute bottom-0 right-0 transform translate-x-1/4 translate-y-1/4 bg-white p-2 shadow-lg rounded-lg">
-          <Image
-            src="/card_mockup.png"
-            alt="Bank card"
-            width={150}
-            height={100}
-            className="rounded-lg"
-          />
-          <p className="text-gray-600 text-sm text-center">Sipho Phezulu</p>
+          </div>
         </div>
       </div>
     </div>
