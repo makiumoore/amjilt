@@ -34,9 +34,11 @@ export default function Header() {
           </div>
         </Link>
         <div className="flex items-center justify-end gap-8">
+          <Link href="/pages/FAQ">
           <p className="font-medium text-md text-gray-700 hover:text-second_color cursor-pointer transition duration-300">
             Тусламж
           </p>
+          </Link>
           <p className="text-xl text-gray-600">|</p>
           <button className="bg-second_color hover:bg-purple-500 transition shadow-md rounded-md py-2 px-4 flex items-center gap-2">
             <p className="font-bold text-md text-white">Холбогдох</p>
