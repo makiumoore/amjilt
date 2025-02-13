@@ -16,9 +16,9 @@ export default function FAQ() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-6">
-      <h2 className="text-4xl font-bold text-black mb-4">Have questions ?</h2>
-      <h3 className="text-3xl text-green-600 font-semibold mb-6">Get answers.</h3>
+    <div className="max-w-3xl mx-auto pt-32 p-6">
+      <h2 className='text-4xl lg:text-5xl font-semibold text-gray-800 tracking-tight'>Амжилт тэй <span className='text-second_color'>LMS</span> холбоотой</h2>
+      <h3 className="text-3xl text-green-600 font-semibold mb-6">Түгээмэл асуулт хариулт</h3>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div key={index} className="border-b pb-2">

@@ -35,7 +35,9 @@ export default function Header() {
         </Link>
         <div className="flex items-center justify-end gap-8">
           <Link href="/pages/FAQ">
-          <p className="font-medium text-md text-gray-700 hover:text-second_color cursor-pointer transition duration-300">
+          <p className={`font-medium text-md transition duration-300 ${
+                pathname === '/pages/FAQ' ? 'text-second_color font-bold border-b-2 border-second_color' : 'text-gray-700 hover:text-second_color'
+              }`}>
             Тусламж
           </p>
           </Link>
