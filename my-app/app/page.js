@@ -9,6 +9,7 @@ import Hero from "./components/mainPage/Hero";
 import Cards from "./components/mainPage/Cards";
 import Scroll from "./components/scroll/scroll";
 import Maincard from "./components/mainPage/Maincard";
+import Grid from "./components/mainPage/grid";  
 
 export default function Home() {
   useEffect(() => {
@@ -32,6 +33,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Scroll />
+      <Grid />
       <Maincard />
       <Cards />
       <Footer />
