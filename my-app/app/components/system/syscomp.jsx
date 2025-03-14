@@ -21,8 +21,10 @@ export default function BusinessAccount() {
     },
     "Digital incorporation": {
       title: "Digital incorporation",
-      description:
-        "Seamlessly register your business online with just a few clicks. No paperwork, no hassle.",
+      description: [
+        "Seamlessly register your business online with just a few clicks.",
+        "No paperwork, no hassle.",
+      ],
       img: "/digital-incorporation.png",
     },
     "Invoice management": {
@@ -67,18 +69,27 @@ export default function BusinessAccount() {
         <div className="grid grid-cols-3 gap-5 pt-10">
           <div className="flex flex-col gap-3">
             <div className="flex flex-col gap-2">
+              {/* Title */}
               <p className="text-lg font-semibold">{content[activeTab].title}</p>
-              <p>{content[activeTab].description}</p>
+
+              {/* Description хэсэг */}
+              {Array.isArray(content[activeTab].description) ? (
+                content[activeTab].description.map((desc, index) => (
+                  <p key={index} className="text-gray-700">{desc}</p>
+                ))
+              ) : (
+                <p className="text-gray-700">{content[activeTab].description}</p>
+              )}
             </div>
             <div>
               <p className="text-blue-500 cursor-pointer">Discover the feature</p>
             </div>
           </div>
-          <div className="">
-            <img className="w-full h-full"  src={content[activeTab].img} alt={activeTab} />
+          <div>
+            <img className="w-full h-full" src={content[activeTab].img} alt={activeTab} />
           </div>
           <div>
-            <h1>hellp</h1>
+            <h1>Hello</h1>
           </div>
         </div>
       </div>
