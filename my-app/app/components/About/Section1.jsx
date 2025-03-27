@@ -10,7 +10,8 @@ export default function Section1() {
           </div>
           <div className='w-[90%] flex flex-col gap-8'>
             <p className='text-gray-700 font-poppins'>"Амжилт" компани 2007 онд Ж.Шижирийн санаачлагаар үүссэн, боловсрол, технологийн чиглэлээр үйл ажиллагаа явуулдаг.</p>
-            <p className='text-gray-700 font-poppins'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, vitae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla non unde velit aliquam saepe repellat officiis ipsum! Consequatur doloremque accusantium magnam ratione, maiores a eius iure nisi asperiores sunt sapiente.</p>
+            <p className='text-gray-700 font-poppins'>Мэдээлэл, дэвшилтэт технологид тулгуурлан боловсролын үйл ажиллагааг автоматжуулж, сургалтын чанар, үр дүнг дээшлүүлэхэд чиглэгдсэн оновчтой шийдэл бүхий программ хангамж зохион бүтээх.
+            </p>
           </div>
         </div>
         <div className='w-full flex justify-end items-start'>
