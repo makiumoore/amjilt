@@ -7,6 +7,7 @@ import Section3 from '@/app/components/About/Section3'
 import Footer from '@/app/components/mainPage/Footer'
 import Section4 from '@/app/components/About/Section4'
 import Section5 from '@/app/components/About/Section5'
+import History from '@/app/components/About/histore'
 
 export default function page() {
   return (
@@ -15,6 +16,7 @@ export default function page() {
       <Section1/>
       <Section2/>
       <Scroll/>
+      <History/>
       <Section3/>
       <Section4/>
       <Section5/>
