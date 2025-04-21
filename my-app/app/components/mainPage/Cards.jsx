@@ -5,7 +5,7 @@ export default function Cards() {
   return (
     <section className="w-max_width h-screen m-auto py-24 bg-white text-center">
       <h2 className="text-3xl font-semibold text-gray-800 mb-10">
-        You're in safe hands
+        Онцлог давуу талууд
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-6xl mx-auto px-4">

@@ -9,6 +9,7 @@ import Hero from "./components/mainPage/Hero";
 import Cards from "./components/mainPage/Cards";
 import Scroll from "./components/scroll/scroll";
 import Maincard from "./components/mainPage/Maincard";
+import Goal from "./components/mainPage/Goal";
 import Grid from "./components/mainPage/grid";  
 
 export default function Home() {
@@ -33,7 +34,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Scroll />
-      <Grid />
+      <Goal />
+      {/* <Grid /> */}
       <Maincard />
       <Cards />
       <Footer />
