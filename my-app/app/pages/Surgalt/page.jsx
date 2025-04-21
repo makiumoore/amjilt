@@ -2,6 +2,7 @@
 
 import React from 'react'
 import SurgaltMain from '@/app/components/SurgaltMain/main'
+import Header from '@/app/components/SurgaltMain/Header'
 
 const Surgalt = () => {
   return (
@@ -15,13 +16,13 @@ const Surgalt = () => {
             alt="logo"
           />
         </div>
-        <button className="text-white rounded-xl hover:bg-indigo-500 transition-colors p-2">
-          <i className="fas fa-book text-2xl"></i>
-        </button>
       </div>
 
       {/* Main Content */}
       <div className="ml-16">
+
+        {/* Header */}
+        <Header />
         <SurgaltMain />
       </div>
     </div>
