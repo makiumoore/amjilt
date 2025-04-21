@@ -19,46 +19,25 @@ export default function Home() {
   const videos = [
     {
       id: 1,
-      title: "B Tamir - The MongolZ (prod. by b1shrel) (Official Music Video)",
+      title: "SPSS Судалгааны программ",
       channel: "MAD SUEY Records",
       duration: "3:13",
     },
     {
       id: 2,
-      title: "CHOIRAYUNG - ULGER (Official Music Video)",
-      channel: "CHOIRAYUNG",
+      title: "Enter data and define variable set",
       duration: "2:49",
     },
     {
       id: 3,
-      title: "Amra & Mika D - Farewell (Lyrics)",
-      channel: "AVE",
+      title: "Descriptive statistic Тодорхойлогч статистик",
       duration: "3:15",
     },
     {
       id: 4,
-      title: "Ginjin - How To Flex ft. B Tamir ( Official Video )",
-      channel: "Ginjin",
+      title: "Нөхцөлт болон бүлгүүдэр ангилж шинжилгээ хийх",
       duration: "3:24",
-    },
-    {
-      id: 5,
-      title: "Soleil E Commerce | Preview",
-      channel: "xsqmmm",
-      duration: "1:22",
-    },
-    {
-      id: 6,
-      title: "Ginjin - We Ousside ( Official Music Video )",
-      channel: "Ginjin",
-      duration: "3:12",
-    },
-    {
-      id: 7,
-      title: "3 NO SCOPE KILLS FROM SENZU! THAT WAS AWESOME!",
-      channel: "ESL Counter-Strike Clips",
-      duration: "6:20",
-    },
+    }
   ];
 
   return (
@@ -125,11 +104,11 @@ export default function Home() {
         </div>
 
         {/* Playlist */}
-        <div className="w-full lg:w-96 bg-gray-800 border-l border-gray-800 h-[573px]">
-          <div className="flex justify-between items-center p-4 border-b border-gray-800">
+        <div className="w-full lg:w-96 bg-gray-100 border border-gray-800 h-[573px] rounded-lg ">
+          <div className="flex justify-between items-center p-4 border-b border-gray-400">
             <div>
-              <h2 className="font-bold text-white">SPSS Судалгааны программ</h2>
-              <p className="text-sm text-gray-400">Нийт хичээлийн сэдвүүд</p>
+              <h2 className="font-bold text-black">SPSS Судалгааны программ</h2>
+              <p className="text-sm text-black">Нийт хичээлийн сэдвүүд</p>
             </div>
           </div>
 
@@ -137,22 +116,22 @@ export default function Home() {
             {videos.map((video) => (
               <div
                 key={video.id}
-                className={`flex items-center p-2 hover:bg-gray-700 cursor-pointer ${
-                  video.id === 1 ? "bg-gray-700" : ""
+                className={`flex items-center p-2 hover:bg-gray-200 cursor-pointer ${
+                  video.id === 1 ? "bg-gray-400" : ""
                 }`}
               >
                 <div className="w-8 flex items-center justify-center mr-2 text-sm">
                   {video.id === 1 ? (
-                    <Play size={16} className="text-white" />
+                    <Play size={16} className="text-black" />
                   ) : (
-                    <span className="text-gray-400">{video.id}</span>
+                    <span className="text-black">{video.id}</span>
                   )}
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-sm font-medium line-clamp-2 text-gray-300">
+                  <h3 className="text-sm font-medium line-clamp-2 text-black">
                     {video.title}
                   </h3>
-                  <p className="text-xs text-gray-400 mt-1">{video.duration}</p>
+                  <p className="text-xs text-black mt-1">{video.duration}</p>
                 </div>
               </div>
             ))}
