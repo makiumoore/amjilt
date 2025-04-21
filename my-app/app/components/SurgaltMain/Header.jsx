@@ -1,58 +1,46 @@
-'use client';
-
+"use client";
 import { useState } from 'react';
-import { FaSearch } from 'react-icons/fa';
-import { FaUserCircle } from 'react-icons/fa';
-import { MdDiscount } from 'react-icons/md';
+import Link from 'next/link';
+import { Search } from 'lucide-react';
 
 export default function Header() {
-  const [activeTab, setActiveTab] = useState('Ном');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [activeFilter, setActiveFilter] = useState('Бүгд');
 
-  const menuItems = ['Танд зориулав', 'Ном', 'Subscription', 'Подкаст', 'Үйлчилгээ'];
-
+  const handleFilterClick = (filter) => {
+    setActiveFilter(filter);
+    // Here you would implement your actual filtering logic
+    // For example, you might call a function like filterContent(filter)
+  };
   return (
-    <header className="bg-[#f3f7fe] px-6 py-3 flex items-center justify-between shadow-sm">
-      {/* Logo & Search */}
-      <div className="flex items-center space-x-8">
-        {/* Logo */}
-        <div className="flex items-center space-x-1 text-2xl font-bold">
-          <span className="text-blue-600">M</span>
-          <span>book</span>
-        </div>
-
-        {/* Search */}
-        <div className="relative w-72">
-          <input
-            type="text"
-            placeholder="Ном хайх..."
-            className="w-full pl-10 pr-4 py-2 rounded-full bg-white shadow-sm focus:outline-none"
-          />
-          <FaSearch className="absolute left-3 top-2.5 text-gray-400" />
-        </div>
-      </div>
-
-      {/* Menu */}
-      <nav className="flex items-center space-x-6 text-[16px] font-semibold">
-        {menuItems.map((item) => (
-          <div
-            key={item}
-            className={`cursor-pointer ${
-              activeTab === item ? 'text-blue-600' : 'text-black'
-            } ${activeTab === item ? 'border-b-2 border-blue-600 pb-1' : ''}`}
-            onClick={() => setActiveTab(item)}
-          >
-            {item}
+    <header className="bg-slate-50 shadow-sm">
+      <div className="container mx-auto px-4">
+        {/* Top Header Section */}
+        <div className="flex items-center justify-between py-3">
+          {/* Search Bar */}
+          <div className="flex-1 max-w-xl mx-4">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Ном хайх..."
+                className="w-full py-2 pl-4 pr-10 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+              <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+                <Search size={20} />
+              </div>
+            </div>
           </div>
-        ))}
-      </nav>
 
-      {/* Right side: Icons */}
-      <div className="flex items-center space-x-4">
-        <MdDiscount className="text-2xl text-gray-500" />
-        <div className="flex items-center space-x-1 cursor-pointer">
-          <FaUserCircle className="text-blue-600 text-2xl" />
-          <span className="text-blue-600 font-semibold">Нэвтрэх</span>
+          {/* User Menu */}
+          <div className="flex items-center gap-4">
+            <div className="flex items-center p-2 border border-gray-300 rounded-md">
+              <span className="text-gray-600">yu bhu</span>
+            </div>
+          </div>
         </div>
+        
       </div>
     </header>
   );
