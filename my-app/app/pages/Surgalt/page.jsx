@@ -8,7 +8,7 @@ const Surgalt = () => {
   return (
     <div className="flex min-h-screen">
       {/* Fixed Logo Sidebar */}
-      <div className="w-16 bg-gradient-to-b from-indigo-600 to-indigo-700 min-h-screen fixed left-0 top-0 flex flex-col items-center space-y-2 shadow-xl z-50">
+      <div className="w-16 bg-[#553ded] min-h-screen fixed left-0 top-0 flex flex-col items-center space-y-2 shadow-xl z-50">
         <div className="mt-3 mb-6">
           <img
             className="w-12 h-12 transform hover:scale-110 transition-transform"

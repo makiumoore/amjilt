@@ -7,12 +7,21 @@ const Sidebar = () => {
   const router = useRouter();
 
   const navigation = [
-    { name: 'Discover', href: '/discover' },
-    { name: 'Category', href: '/category' },
-    { name: 'My Library', href: '/library' },
-    { name: 'Download', href: '/download' },
-    { name: 'Audio Books', href: '/audio' },
-    { name: 'Favourite', href: '/favourite' },
+    { name: 'Бүгд', href: '/category/all' },
+    { name: 'Програм хангамж', href: '/category/software' },
+    { name: 'Компьютерийн хэрэглээ', href: '/category/computer-use' },
+    { name: 'Интерьер дизайн', href: '/category/interior-design' },
+    { name: 'Гадаад хэл', href: '/category/language' },
+    { name: '3D анимейшн', href: '/category/3d-animation' },
+    { name: 'График дизайн', href: '/category/graphic-design' },
+    { name: 'Бизнес, менежмент', href: '/category/business-management' },
+    { name: 'Бусад ур чадвар', href: '/category/other-skills' },
+    { name: 'Хувь хүний хөгжил', href: '/category/personal-development' },
+    { name: 'Үнэгүй хичээлүүд', href: '/category/free-courses' },
+    { name: 'Санхүү', href: '/category/finance' },
+    { name: 'СӨБ', href: '/category/early-education' },
+    { name: 'ЭЕШ', href: '/category/eesh' },
+    { name: 'танин мэдэхүй', href: '/category/general-knowledge' }
   ];
 
 
