@@ -98,7 +98,7 @@ export default function Home() {
           {/* Title */}
           <div className="p-4">
             <h1 className="text-xl text-black font-bold">
-              SPSS Судалгааны программ
+              SPSS Судалгааны программ wpeoijrd
             </h1>
           </div>
         </div>
